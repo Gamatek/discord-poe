@@ -1,1 +1,44 @@
+.MainLeftSidebar_sidebarContainer__yL1iH,
+.MainLeftSidebar_sidebar__C6HpK,
+.SidebarHeader_headerBar__3sK8Z,
+.SidebarItem_item__24u_X,
+.SidebarCardSection_sidebarCardSection__kn_gQ {
+    background: var(--background-secondary);
+}
 
+.MainLeftSidebar_sidebar__C6HpK {
+    scrollbar-width: none;
+}
+
+.SidebarItem_item__24u_X {
+    color: var(--channels-default);
+}
+
+.SidebarItem_item__24u_X:hover {
+    color: var(--interactive-hover);
+}
+
+.SidebarItem_item__24u_X[data-active=true] {
+    color: var(--interactive-active);
+    background: var(--background-modifier-selected) !important;
+}
+
+.SidebarItem_item__24u_X:hover {
+    background: var(--background-modifier-hover) !important;
+}
+
+.ChatHistoryListItem_textOverflow__vMchf {
+    font-weight: 500;
+}
+
+.SidebarFooter_footer__3egHX {
+    display: none;
+}
+
+.SidebarLayout_right__r1sqP {
+    display: none;
+}
+
+.SidebarHeader_headerBar__3sK8Z {
+    position: relative;
+}
